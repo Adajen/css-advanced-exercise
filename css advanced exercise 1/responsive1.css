@@ -1,0 +1,481 @@
+nav {
+    background-color: #B8E4F0;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+
+
+}
+
+body {
+    width: 100%;
+    border: 2px solid blue;
+    padding: 0;
+    margin: 0;
+}
+
+nav>ul>li {
+    list-style-type: none;
+
+}
+
+
+h1 {
+    color: #B1BCE6;
+}
+
+#column1 {
+    background-image: linear-gradient(180deg, #370665, #5534A5, #A85CF9, #BAABDA);
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.menu-area {
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 8px
+}
+
+.menu-area>ul>li {
+    list-style-type: none;
+}
+
+.link2 {
+    background-color: #B8E4F0;
+    color: black;
+    /* bullet Color */
+    margin-bottom: 0;
+    padding-bottom: 10px;
+
+}
+
+li span {
+    color: blue;
+    /* Text Color */
+}
+
+h2 {
+    background-color: #370665;
+    color: #B8E4F0;
+    padding-left: 10px;
+
+}
+
+p {
+    padding-left: 10px;
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+
+@media all and (min-width:400px) and (max-width:499px) {
+    nav {
+        padding-bottom: 20px;
+
+    }
+
+    nav>ul>li {
+        float: right;
+        padding-right: 10px;
+
+    }
+
+    #special {
+        float: left;
+
+    }
+
+    hr {
+        border-top: 3px solid blue;
+    }
+
+    .menu-area {
+        font-size: 1.2em;
+    }
+
+    .nav1 {
+        display: none;
+    }
+
+    a {
+        margin-left: 0;
+    }
+
+    .dropdown {
+        list-style: none;
+    }
+
+}
+
+@media all and (min-width:500px) and (max-width:649px) {
+    nav {
+        padding-bottom: 20px;
+
+    }
+
+    nav>ul>li {
+        float: right;
+        padding-right: 10px;
+
+    }
+
+    #special {
+        float: left;
+
+    }
+
+    .nav1 {
+        display: none;
+    }
+
+    hr {
+        border-top: 3px solid blue;
+    }
+
+    .menu-area ul {
+        list-style: none;
+
+
+    }
+
+    .menu-area {
+        display: inline-block;
+        width: 220%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+
+    }
+
+
+    .menu-area>ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        padding-left: 5px;
+        text-align: center;
+        display: inline-block;
+        background: black;
+        color: #fff;
+        width: 300%;
+    }
+
+    .menu-area>ul>li {
+        position: relative;
+        cursor: pointer;
+        letter-spacing: 1px;
+        float: left;
+        width: auto;
+        padding-right: 10px;
+        padding-left: 5px;
+        text-align: left;
+
+        height: 50px;
+        line-height: 50px;
+
+    }
+
+    .dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        width: 100%;
+        padding: 0%;
+
+    }
+
+    #sublink.dropdown {
+        border: 1px white;
+    }
+
+
+    .dropdown li {
+        background: black;
+        display: none;
+        width: 450%;
+        padding-left: 7px;
+
+    }
+
+    .dropdown li:hover {
+        background: grey;
+
+
+    }
+
+    .menu-area li:hover>.dropdown li {
+        display: block;
+
+
+    }
+
+    .link2 {
+        column-count: 3;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .sublink {
+        position: relative;
+
+        bottom: 20px;
+
+    }
+
+}
+
+@media all and (min-width:650px) and (max-width:799px) {
+    nav {
+        padding-bottom: 20px;
+
+
+    }
+
+    nav>ul {
+
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        float: right;
+       
+    }
+
+
+    nav li {
+        display: inline-block;
+        margin-right: 15px;
+        
+        
+    }
+
+    .menu-area ul {
+        list-style: none;
+
+
+    }
+
+    .menu-area {
+        display: inline-block;
+        width: 220%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+
+    }
+
+
+    .menu-area>ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        padding-left: 5px;
+        text-align: center;
+        display: inline-block;
+        background: black;
+        color: #fff;
+        width: 300%;
+    }
+
+    .menu-area>ul>li {
+        position: relative;
+        cursor: pointer;
+        letter-spacing: 1px;
+        float: left;
+        width: auto;
+        padding-right: 10px;
+        padding-left: 5px;
+        text-align: left;
+        height: 50px;
+        line-height: 50px;
+
+    }
+
+    .dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        width: 100%;
+        padding: 0%;
+
+    }
+
+    #sublink.dropdown {
+        border: 1px white;
+    }
+
+
+    .dropdown li {
+        background: black;
+        display: none;
+        width: 450%;
+        padding-left: 7px;
+
+    }
+
+    .dropdown li:hover {
+        background: grey;
+
+
+    }
+
+    .menu-area li:hover>.dropdown li {
+        display: block;
+
+
+    }
+
+    section {
+        column-count: 2;
+
+    }
+
+    .link2 {
+        column-count: 3;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .sublink {
+        position: relative;
+
+        bottom: 20px;
+
+
+    }
+
+    hr {
+        border: none;
+    }
+}
+@media all and (min-width:800px) and (max-width:1200px) {
+    nav {
+        padding-bottom: 20px;
+
+    }
+
+    nav>ul {
+
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        float: right;
+       
+    }
+
+
+    nav li {
+        display: inline-block;
+        margin-right: 15px;
+        
+        
+    }
+
+    .menu-area ul {
+        list-style: none;
+
+
+    }
+
+    .menu-area {
+        display: inline-block;
+        width: 220%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+
+    }
+
+
+    .menu-area>ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        padding-left: 5px;
+        text-align: center;
+        display: inline-block;
+        background: black;
+        color: #fff;
+        width: 300%;
+    }
+
+    .menu-area>ul>li {
+        position: relative;
+        cursor: pointer;
+        letter-spacing: 1px;
+        float: left;
+        width: auto;
+        padding-right: 10px;
+        padding-left: 5px;
+        text-align: left;
+        height: 50px;
+        line-height: 50px;
+
+    }
+
+    .dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        width: 100%;
+        padding: 0%;
+
+    }
+
+    #sublink.dropdown {
+        border: 1px white;
+    }
+
+
+    .dropdown li {
+        background: black;
+        display: none;
+        width: 450%;
+        padding-left: 7px;
+
+    }
+
+    .dropdown li:hover {
+        background: grey;
+
+    }
+
+    .menu-area li:hover>.dropdown li {
+        display: block;
+
+    }
+    .total-section{
+       column-count:3 ;
+       padding: 20px;
+    }
+
+    .link2 {
+        padding-top: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .sublink {
+       
+    }
+
+    hr {
+        border: none;
+    }
+}

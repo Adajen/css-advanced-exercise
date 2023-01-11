@@ -1,0 +1,674 @@
+body {
+    background: url(images/christmas-bg.png);
+}
+
+.main-container {
+    background-color: white;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.container {
+    background-color: white;
+    padding-top: 1px;
+    margin-top: 30px;
+
+}
+
+h1 {
+
+    font-family: Merriweather;
+    font-weight: 900;
+    background-color: #a0181c;
+    color: white;
+    text-align: center;
+    width: 73%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: #a0181c;
+    border-radius: 25px 25px 0px 0px;
+}
+
+h3 {
+    font-family: Titillium Web;
+}
+
+p {
+    font-family: Titillium Web;
+    ;
+}
+
+
+.img1 {
+    text-align: center;
+
+
+
+}
+
+#imga,
+#imgb,
+#imgc {
+    border: 2px solid black;
+}
+
+.ipsum {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 160px;
+    padding-right: 130px;
+
+}
+
+.rgb {
+    background-image: linear-gradient(to right, white, #a0181c, white);
+    text-align: center;
+    border: solid 2px #a0181c;
+}
+
+.promo1 {
+    background-color: white;
+    padding-top: 12px;
+    border-style: dotted;
+    border-color: #a0181c;
+    margin-right: 1px;
+}
+
+.about {
+    background-color: white;
+    border-style: dotted;
+    border-color: #a0181c;
+    margin-left: 1px;
+    margin-right: 3px;
+    padding-top: 10px;
+    margin-top: 7px;
+}
+
+.footer {
+    background-color: #a0181c;
+    border-radius: 0px 0px 25px 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.cane {
+    margin-left: 135px;
+}
+
+#icons {
+    font-size: 10px;
+    margin: 20px;
+    padding-right: 20px;
+}
+
+a:link,
+a:visited {
+    background-color: #335a16;
+    color: #a0181c;
+    padding: 10px 20px;
+    border: 2px solid #335a16;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Merriweather;
+    font-size: 400;
+    display: block;
+    padding: 5px;
+    margin: 10px;
+}
+
+#fb,
+#tw,
+#yt,
+#li {
+    margin-right: 10px;
+}
+
+#xmas1,
+#xmas2,
+#xmas3 {
+    position: relative;
+    bottom: 70px;
+    margin-left: 200px;
+}
+
+#caramel1,
+#caramel2,
+#caramel3 {
+    position: relative;
+    bottom: 70px;
+    margin-left: 200px;
+}
+
+span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+@media all and (min-width:500px) and (max-width:699px) {
+    .img1 {
+        display: none;
+    }
+
+    h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 80%;
+    }
+
+    #mini1,
+    #mini2,
+    #mini3,
+    #mini4 {
+        display: none;
+    }
+
+    .container {
+        padding-bottom: 5px;
+
+    }
+
+    #box1,
+    #box2 {
+        display: none;
+    }
+
+    #box3,
+    #box4 {
+        border-style: dotted;
+        border-color: #a0181c;
+        margin-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .ipsum {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .promo1 {
+        padding: 10px;
+        margin-left: 29px;
+        margin-right: 29px;
+        padding-bottom: 0px;
+
+    }
+
+    .about {
+        padding: 10px;
+        margin-left: 29px;
+        margin-right: 29px;
+    }
+
+    .rgb {
+
+        border: solid 2px #a0181c;
+    }
+
+    hr {
+        border: solid 2px #a0181c;
+        border-style: dotted;
+    }
+
+    #cane2,
+    #cane3 {
+        display: none;
+    }
+
+    #caramel2,
+    #caramel3 {
+        display: none;
+    }
+
+    #xmas2,
+    #xmas3 {
+        display: none;
+    }
+
+    #caramel1 {
+        margin-left: 60px;
+    }
+
+    #xmas1 {
+        margin-left: 60px;
+    }
+
+    #icons {
+        text-align: center;
+    }
+
+    .footer {
+        padding: 10px;
+        margin-left: 29px;
+        margin-right: 29px;
+
+    }
+
+    .footer-links {
+        font-size: 1.3em;
+        font-family: Merriweather;
+    }
+
+}
+
+@media all and (min-width:700px) and (max-width:800px) {
+    h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 79%;
+    }
+
+    #mini1,
+    #mini2,
+    #mini3,
+    #mini4 {
+        display: none;
+    }
+
+    .container {
+        padding-bottom: 5px;
+
+    }
+
+    #imga,
+    #imgb,
+    #imgc {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .ipsum {
+        padding-left: 65px;
+
+    }
+
+    #box1 {
+        float: left;
+        width: 50%;
+        padding: 20px;
+    }
+
+    .ipsum:after {
+        content: "";
+        display: table;
+        clear: both;
+
+    }
+
+    #box3 {
+        float: left;
+        width: 50%;
+        padding: 20px;
+    }
+
+    #box2,
+    #box4 {
+        padding-top: 15px;
+    }
+
+    .promo1 {
+        margin: 10px;
+        padding-bottom: 0px;
+    }
+
+    #cane1,
+    #cane2 {
+        margin-left: 10px;
+    }
+
+    #cane3,
+    #xmas3,
+    #caramel3 {
+        display: none;
+    }
+
+    #xmas1,
+    #xmas2,
+    #caramel1,
+    #caramel2 {
+        margin-left: 75px;
+
+    }
+
+    .about {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .rgb {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .about-us {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    hr {
+        border: solid 2px #a0181c;
+        border-style: dotted;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .footer {
+        margin: 10px;
+    }
+
+    .footer-links {
+        float: right;
+        width: 50%;
+        margin-top: -150px;
+        width: 50%;
+
+
+    }
+}
+
+@media all and (min-width:800px) and (max-width:899px) {
+    h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 79%;
+    }
+
+    #mini1,
+    #mini2,
+    #mini3,
+    #mini4 {
+        display: none;
+    }
+
+    .container {
+        padding-bottom: 5px;
+
+    }
+
+    #imga,
+    #imgb,
+    #imgc {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .ipsum {
+        padding-left: 65px;
+
+    }
+
+    #box1 {
+        float: left;
+        width: 50%;
+        padding: 20px;
+    }
+
+    .ipsum:after {
+        content: "";
+        display: table;
+        clear: both;
+
+    }
+
+    #box3 {
+        float: left;
+        width: 50%;
+        padding: 20px;
+    }
+
+    #box2,
+    #box4 {
+        padding-top: 15px;
+    }
+
+    .promo1 {
+        margin-top: 2px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    #cane1,
+    #cane2 {
+        margin-left: 10px;
+
+    }
+
+
+
+    #cane3,
+    #xmas3,
+    #caramel3 {
+        display: none;
+    }
+
+    #xmas1,
+    #xmas2,
+    #caramel1,
+    #caramel2 {
+        margin-left: 75px;
+        margin-bottom: 0px;
+    }
+
+    .about {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 27px;
+        margin-bottom: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .rgb {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 12px;
+    }
+
+    .about-us {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .promo-about {
+        column-count: 2;
+        padding-top: 10px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+
+    }
+
+    hr {
+        border: solid 2px #a0181c;
+        border-style: dotted;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .footer {
+        margin: 10px;
+    }
+
+    .footer-links {
+        float: right;
+        width: 50%;
+        margin-top: -150px;
+
+
+    }
+
+    #caramel2 {
+        padding-bottom: 0px;
+
+    }
+
+}
+
+@media all and (min-width:900px) and (max-width:1000px) {
+    h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 79%;
+    }
+
+    #mini1,
+    #mini2,
+    #mini3,
+    #mini4 {
+        width: 50px;
+        height: 50px
+    }
+
+    #mini1,
+    #mini2 {
+        padding-right: 10px;
+    }
+
+    #mini3,
+    #mini4 {
+        padding-left: 10px;
+    }
+
+    .container {
+        padding-bottom: 5px;
+
+    }
+
+    #imga,
+    #imgb,
+    #imgc {
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .ipsum {
+        padding-left: 20px;
+        padding-right: 20px;  
+
+    }
+    #box3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #box1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .promo-about{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .ipsum:after {
+        content: "";
+        display: table;
+        clear: both;
+
+
+    }
+    .sub-container{
+        column-count: 3;
+        column-gap: 5px;
+        
+    }
+
+    #cane1,
+    #cane2,
+    #cane3 {
+        margin-left: 10px;
+
+    }
+
+    #xmas1,
+    #xmas2,
+    #xmas3,
+    #caramel1,
+    #caramel2,
+    #caramel3 {
+        margin-left: 75px;
+        margin-bottom: 0px;
+
+    }
+
+    .promo1 {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 27px;
+        margin-bottom: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .about {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 27px;
+        margin-bottom: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .rgb {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 12px;
+    }
+
+    .about-us {
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .promo-about {
+
+        padding-top: 10px;
+        margin-bottom: 10px;
+        margin-top: 100px;
+        padding-bottom: 50px;
+
+    }
+
+    hr {
+        border: solid 2px #a0181c;
+        border-style: dotted;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #caramel2,
+    #caramel3 {
+        padding-bottom: 0px;
+        padding-top: 2px;
+    }
+
+    .footer {
+        margin: 10px;
+        padding-bottom: 50px;
+        
+    }
+
+    .footer-links {
+        float: left;
+        width: 35%;
+        margin-top: -150px;
+        margin-left: 290px;
+
+    }
+
+    #icons {
+        float: right;
+        margin-top: -120px;
+
+    }
+}
